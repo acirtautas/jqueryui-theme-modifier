@@ -1,0 +1,13 @@
+{
+    "name": "acirtautas/jqueryui-theme-modifier",
+    "description": "jQuery UI theme modifier",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alfonsas Cirtautas"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"": ""}
+    }
+}
