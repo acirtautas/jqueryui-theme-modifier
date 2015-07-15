@@ -37,7 +37,7 @@ class modifier {
 
         $io->write('Modifying jQuery UI theme ['.$dir.']');
 
-        $pattern = '/(.[^\s\*:]+)\/\*\{([a-z]+)\}\*\//i';
+        $pattern = '/(.[^\*:]+)\/\*\{([a-z]+)\}\*\//i';
 
         foreach (new DirectoryIterator($dir) as $fileInfo) {
             if($fileInfo->isDot() || $fileInfo->isDir()) continue;
